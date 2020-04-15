@@ -157,7 +157,7 @@ button i{
 		transform: translateX(-100%);
 		transition: transform 0.5s ease;
 		padding: 10vw;
-		background: linear-gradient(to bottom,#3497d4,#b93843)
+		background: linear-gradient(to right,#1FA2FF, #12D8FA,#A6FFCB)
 	}
 	.nav-links >li {
 		text-align: left;
