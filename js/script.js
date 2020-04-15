@@ -72,7 +72,7 @@ $(document).ready(function() {
 	$(window).scroll(function () {
 	    var y = $(window).scrollTop();
 	    if (y > 100){
-	    	// $('nav').css('position','fixed').css("z-index","100");
+	    	$('nav').css('position','fixed').css("z-index","100");
 	    	$('nav').css("box-shadow","0 10px 20px -10px #607d8b");
 	    } 
 	    else{
