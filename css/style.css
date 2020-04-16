@@ -42,6 +42,8 @@ html{
 	vertical-align: middle;
 }
 nav{
+	position: fixed;
+	z-index: 100;
 	width: 100%;
 	font-family: My_font2;
 	font-size: 16px;
@@ -160,11 +162,11 @@ button i{
 		background: #2f96d4
 	}
 	.nav-links >li {
+		
 		text-align: left;
 		position: relative;
 		top:8vh;
 		border-bottom: 1px solid #a9a9a9;
-		
 	}
 	.nav-links li{
 		opacity: 0;
@@ -172,7 +174,6 @@ button i{
 	.nav-links a{
 		border-right: none;
 		padding: 1rem;
-		padding-left: 0.3em;
 		/*text-shadow: 1px 1px 14px #a94353;*/
 	}
 	.burger{
@@ -258,7 +259,9 @@ button i{
 	}
 }*/
 
-
+.main-body{
+	padding-top: 50px;
+}
 
 .slide-container{
 	position: relative;
@@ -525,7 +528,7 @@ h5{
 
 footer{
 	position:relative;
-	background:linear-gradient(to right,#1FA2FF, #12D8FA,#A6FFCB);
+	background:#222221;
 }
 .information{
 	padding: 10px;
@@ -534,8 +537,11 @@ footer{
 .information img{
 	width: 50px;
 }
+.information .description{
+	color: white;
+}
 #connect{
-	color: #000;
+	color: white;
 	padding: 10px;
 }
 .connect ul{
@@ -545,9 +551,10 @@ footer{
 	display: inline-flex;
 	margin: 0.5em;
 	width: 45px;
+	border: 1px solid #3a3a3a;
 	list-style: none;	
-	border-radius: 7px;
-	background: linear-gradient(to bottom,#3497d4,#b93843);
+	border-radius: 1px;
+	background: #292929;
 }
 .connect ul li a {
 	display: block;
@@ -564,7 +571,7 @@ footer{
 
 .support a{
 	text-decoration: underline;
-	color: #000;
+	color: white;
 }
 .support a:hover{
 	color: #2f96d4;
@@ -579,6 +586,9 @@ footer{
 	margin: 0 auto;
 }
 @media screen and (min-width: 768px) {
+	.main-body{
+		padding-top: 4.2rem;
+	}
 	.content-outstanding h3{
 		text-align: center;
 		margin-bottom: 2rem;
